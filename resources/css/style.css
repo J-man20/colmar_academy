@@ -95,6 +95,12 @@ button{
   width:40%;
 }
 
+.orientation, .campus, .guest{
+  display: block;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 .orientation img, .campus img, .guest img{
   width:35%;
   padding:16px;
