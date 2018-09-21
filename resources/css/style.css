@@ -90,12 +90,21 @@ button{
   align-items: center;
   flex-direction: column;
   position: relative;
-  top:30px;
+  top:15px;
   right:300px;
+  width:40%;
 }
 
 .orientation img, .campus img, .guest img{
   width:35%;
+  padding:16px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width:65%;
 }
 
 /*Thesis Banner */
