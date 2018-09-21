@@ -1,6 +1,6 @@
-/* Universial */
+/* Universial*/
 html{
-  font-size: 18px;
+  font-size:18px;
 }
 
 /* Header */
@@ -9,78 +9,27 @@ html{
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  height: 64px;
-  width: auto;
+  height:64px;
+  padding: 0 24px 0 24px;
 }
 
 .logo{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-left: 24px;
-}
-
-.logo img{
-  height: 32px;
+  height:32px;
 }
 
 .desktop ul{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: row;
-  margin-right: 24px;
 }
 
-.desktop li{
+.desktop ul li{
   margin-right: 16px;
 }
 
-.mobile img{
+.mobile{
   display: none;
-}
-
-/* Discover Banner */
-.discover{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.study{
-  width:60%;
-}
-
-.study img{
-  margin:32px 24px;
-  width:100%;
-  height:auto;
-}
-
-.learn{
-  margin: 0 auto;
-}
-
-.learn button{
-  padding: 8px 0px;
-  width:80%;
-}
-
-/* About Banner */
-.read{
-  width:60%;
-  display: flex;
- flex-direction: column;
-
-}
-
-.read img{
-  margin:32px 24px;
-  width:100%;
-  height: auto;
-}
-
-/* Thesis Banner*/
-video{
-  width:60%;
 }
