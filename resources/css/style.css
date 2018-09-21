@@ -38,3 +38,20 @@ html{
 .mobile img{
   display: none;
 }
+
+/* Discover Banner */
+.discover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover img{
+  margin:32px 24px;
+  width:60%;
+}
+
+.learn button{
+  padding: 8px 0px;
+  width:80%;
+}
