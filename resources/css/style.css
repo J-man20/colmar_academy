@@ -26,6 +26,7 @@ html{
 
 .desktop ul{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   margin-right: 24px;
@@ -42,16 +43,44 @@ html{
 /* Discover Banner */
 .discover{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.discover img{
-  margin:32px 24px;
+.study{
   width:60%;
+}
+
+.study img{
+  margin:32px 24px;
+  width:100%;
+  height:auto;
+}
+
+.learn{
+  margin: 0 auto;
 }
 
 .learn button{
   padding: 8px 0px;
   width:80%;
+}
+
+/* About Banner */
+.read{
+  width:60%;
+  display: flex;
+ flex-direction: column;
+
+}
+
+.read img{
+  margin:32px 24px;
+  width:100%;
+  height: auto;
+}
+
+/* Thesis Banner*/
+video{
+  width:60%;
 }
