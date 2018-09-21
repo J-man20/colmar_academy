@@ -1,6 +1,7 @@
 /* Universial*/
 html{
   font-size:18px;
+  line-height: 1.2rem;
 }
 
 /* Header */
@@ -32,4 +33,62 @@ html{
 
 .mobile{
   display: none;
+}
+
+/* Discover Banner */
+.discover{
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+  padding:32px 24px;
+
+}
+
+.study img{
+  width:60%;
+  margin-right: 24px;
+}
+
+.learn{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  right:300px;
+  width:40%
+}
+
+button{
+  padding:8px 0;
+  width:80%;
+}
+
+/* About Banner */
+.about{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.read img{
+  width:60%;
+  padding:32px 24px;
+}
+
+.read-text{
+  padding:32px 24px;
+}
+
+.read-text h1, blockquote{
+  margin-bottom: 24px;
+}
+
+.fyi{
+  width:40%;
+}
+
+/*Thesis Banner */
+video{
+  width: 60%;
 }
