@@ -1,0 +1,40 @@
+/* Universial */
+html{
+  font-size: 18px;
+}
+
+/* Header */
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 64px;
+  width: auto;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 24px;
+}
+
+.logo img{
+  height: 32px;
+}
+
+.desktop ul{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 24px;
+}
+
+.desktop li{
+  margin-right: 16px;
+}
+
+.mobile img{
+  display: none;
+}
