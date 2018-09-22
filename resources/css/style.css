@@ -221,3 +221,12 @@ padding: 24px 0 32px 0;
 .fisma-text h2, .now-and-then-text h2{
   padding-bottom: 16px;
 }
+
+/* Footer */
+.copyrights{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding:16px 24px 0 24px;
+  height:69px;
+}
