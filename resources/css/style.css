@@ -111,8 +111,12 @@ button{
 }
 
 .orientation-info, .campus-info, .guest-info{
-  width:65%;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis;
+  width:60%;
 }
+
 
 /* Majors Banner */
 
