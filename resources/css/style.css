@@ -117,6 +117,13 @@ button{
   width:60%;
 }
 
+.orientation-info h2, .campus-info h2, .guest-info h2{
+  padding-bottom: 8px;
+}
+
+.orientation-info p, .campus-info p, .guest-info p{
+  padding-bottom: 8px;
+}
 
 /* Majors Banner */
 
