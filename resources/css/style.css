@@ -144,9 +144,21 @@ button{
   width: 33%;
 }
 
+.data, .business, .marketing{
+  padding-top: 32px;
+}
+
 .software img, .computer-art img, .design img, .data img, .business img, .marketing img{
   width:80%;
   height:auto;
+}
+
+.software h2, .computer-art h2, .design h2, .data h2, .business h2, .marketing h2{
+  padding:16px 16px 8px 16px;
+}
+
+.software h3, .computer-art h3, .design h3, .data h3, .business h3, .marketing h3{
+  padding:8px 0 0 16px;
 }
 
 
