@@ -141,11 +141,11 @@ button{
 .software, .computer-art, .design, .data, .business, .marketing{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 33%;
 }
 
 .software img, .computer-art img, .design img, .data img, .business img, .marketing img{
-  width:50%;
+  width:80%;
   height:auto;
 }
 
