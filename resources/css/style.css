@@ -46,6 +46,7 @@ html{
 
 .study img{
   width:60%;
+  height: auto;
   margin-right: 24px;
 }
 
@@ -73,6 +74,7 @@ button{
 
 .read img{
   width:60%;
+  height: auto;
   padding:32px 24px;
 }
 
@@ -96,22 +98,24 @@ button{
 }
 
 .orientation, .campus, .guest{
-  display: block;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-direction: row;
 }
 
 .orientation img, .campus img, .guest img{
   width:35%;
+  height: auto;
   padding:16px;
 }
 
-.info{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+.orientation-info, .campus-info, .guest-info{
   width:65%;
 }
+
+/* Majors Banner */
+
 
 /*Thesis Banner */
 video{
