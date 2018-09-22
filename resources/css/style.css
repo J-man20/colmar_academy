@@ -162,8 +162,62 @@ button{
 }
 
 
-
 /*Thesis Banner */
+.exhibit{
+  text-align: center;
+  padding: 32px;
+}
+
+.thesis{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.video{
+  padding:0 24px 24px 24px;
+  width:60%;
+}
+
 video{
-  width: 60%;
+  width:100%;
+}
+
+.video-text{
+padding: 24px 0 32px 0;
+}
+
+.video-text h2{
+  padding-bottom: 8px;
+}
+
+.articles{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width:40%;
+}
+
+.fisma, .now-and-then{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.fisma img, .now-and-then img{
+  width:35%;
+  height:auto;
+  padding:16px;
+}
+
+.fisma-text, .now-and-then-text{
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis;
+  width:60%;
+}
+
+.fisma-text h2, .now-and-then-text h2{
+  padding-bottom: 16px;
 }
