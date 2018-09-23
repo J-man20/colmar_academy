@@ -346,3 +346,13 @@ padding: 24px 0 32px 0;
   padding:16px 24px 0 24px;
   height:69px;
 }
+
+@media only screen and (max-width:480px){
+  .copyrights{
+    text-align: center;
+  }
+  
+  .law{
+    display: none;
+  }
+}
