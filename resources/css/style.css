@@ -35,6 +35,34 @@ html{
   display: none;
 }
 
+@media only screen and (max-width:480px){
+  .navigation{
+    display: flex;
+    justify-content:center;
+    height: 64px;
+  }
+
+  .logo img{
+    padding-right: 24px;
+  }
+
+.logo p{
+  display: none;
+}
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display:block;
+  }
+
+  .mobile img{
+    padding-right: 24px;
+  }
+
+}
+
 /* Discover Banner */
 .discover{
  display: flex;
