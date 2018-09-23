@@ -61,6 +61,7 @@ html{
     padding-right: 24px;
   }
 
+
 }
 
 /* Discover Banner */
@@ -179,6 +180,37 @@ button{
 
 .orientation-info p, .campus-info p, .guest-info p{
   padding-bottom: 8px;
+}
+
+@media only screen and (max-width:480px){
+.read{
+  display: none;
+}
+
+.fyi{
+  position: relative;
+  right:136px;
+  width:100%;
+  padding:16px 16px 32px 16px;
+}
+
+.orientation, .campus, .guest{
+  display: flex;
+  flex-direction: column;
+  margin-top:32px;
+}
+
+.orientation img, .campus img, .guest img{
+  width: 100%;
+  height:auto;
+}
+
+.orientation-info, .campus-info, .guest-info{
+  position: relative;
+  left:41px;
+
+}
+
 }
 
 /* Majors Banner */
