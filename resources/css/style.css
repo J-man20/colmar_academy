@@ -142,8 +142,6 @@ button a{
 /* About Banner */
 .about{
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
   color:rgb(44,59,99);
   background-color: rgb(132,141,130);
 }
@@ -165,11 +163,7 @@ button a{
 
 .fyi{
   display: flex;
-  align-items: center;
   flex-direction: column;
-  position: relative;
-  top:15px;
-  right:300px;
   width:40%;
 }
 
@@ -219,8 +213,6 @@ button a{
 .orientation-mobile, .campus-mobile, .guest-mobile{
   display: none;
 }
-
-
 
 @media only screen and (max-width:480px){
 .read{
