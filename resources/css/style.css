@@ -216,14 +216,18 @@ button a{
   padding-bottom: 8px;
 }
 
+.orientation-mobile, .campus-mobile, .guest-mobile{
+  display: none;
+}
+
+
+
 @media only screen and (max-width:480px){
 .read{
   display: none;
 }
 
 .fyi{
-  position: relative;
-  right:136px;
   width:100%;
   padding:16px 16px 32px 16px;
 }
@@ -235,14 +239,11 @@ button a{
 }
 
 .orientation img, .campus img, .guest img{
-  width: 100%;
-  height:auto;
+  display: none;
 }
 
-.orientation-info, .campus-info, .guest-info{
-  position: relative;
-  left:41px;
-
+.orientation-mobile, .campus-mobile, .guest-mobile{
+  display: block;
 }
 
 }
