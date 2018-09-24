@@ -35,6 +35,11 @@ html{
   text-decoration: none;
 }
 
+.desktop a:hover{
+  color: rgb(236,229,154);
+  text-decoration: underline;
+}
+
 .mobile{
   display: none;
 }
@@ -140,7 +145,7 @@ button a{
   justify-content: space-between;
   flex-direction: row;
   color:rgb(44,59,99);
-  background-color: rgba(132,141,130,0.4);
+  background-color: rgb(132,141,130);
 }
 
 .read img{
@@ -166,7 +171,6 @@ button a{
   top:15px;
   right:300px;
   width:40%;
-
 }
 
 .orientation, .campus, .guest{
@@ -176,6 +180,10 @@ button a{
   flex-direction: row;
   border-left: 2px solid rgb(44,59,99);
 
+}
+
+.campus, .guest{
+  border-top: 2px solid rgb(44,59,99);
 }
 
 .orientation img, .campus img, .guest img{
