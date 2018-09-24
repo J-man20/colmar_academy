@@ -1,4 +1,4 @@
-/* Universial*/
+/* Universial */
 html{
   font-size:18px;
   line-height: 1.2rem;
@@ -12,6 +12,8 @@ html{
   flex-direction: row;
   height:64px;
   padding: 0 24px 0 24px;
+  color: rgb(44,59,99);
+  background-color: rgb(132,141,130);
 }
 
 .logo{
@@ -27,8 +29,10 @@ html{
   flex-direction: row;
 }
 
-.desktop ul li{
+.desktop ul li a{
+  color: rgb(44,59,99);
   margin-right: 16px;
+  text-decoration: none;
 }
 
 .mobile{
@@ -69,8 +73,9 @@ html{
  display: flex;
  justify-content: space-between;
  flex-direction: row;
-  padding:32px 24px;
-
+ padding:32px 24px;
+ color: rgb(236,229,154);
+ background-color: rgb(44,59,99);
 }
 
 .study img{
@@ -97,6 +102,13 @@ button{
   margin-top: 24px;
   padding:8px 0;
   width:80%;
+  background-color: rgb(132,141,130);
+  border: none;
+}
+
+button a{
+ color: rgb(44,59,99);
+ text-decoration: none;
 }
 
 @media only screen and (max-width:480px){
@@ -152,6 +164,7 @@ button{
   top:15px;
   right:300px;
   width:40%;
+
 }
 
 .orientation, .campus, .guest{
@@ -159,6 +172,8 @@ button{
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  border-left: 2px solid;
+  color:rgb(44,59,99);
 }
 
 .orientation img, .campus img, .guest img{
@@ -216,6 +231,7 @@ button{
 /* Majors Banner */
 .start{
   text-align: center;
+  margin-top: 24px;
 }
 
 .majors{
