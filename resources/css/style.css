@@ -146,6 +146,10 @@ flex-direction: row;
 
 }
 
+.read{
+  width:80%
+}
+
 .read img{
   padding:32px 24px;
   width:60%;
@@ -222,8 +226,9 @@ blockquote{
   display: none;
 }
 
-.orientation-mobile, .campus-mobile, .guest-mobile{
+#orientation-mobile, #campus-mobile, #guest-mobile{
   display: block;
+  width:100%;
 }
 
 }
