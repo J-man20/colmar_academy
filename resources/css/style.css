@@ -204,11 +204,15 @@ background-color: rgb(132,141,130);
 }
 
 .read-text{
+  font-family: 'Roboto', sans-serif;
   padding: 0 0 32px 24px;
   width:60%;
 }
 
 .read-text h1{
+  font-family: 'Eczar', serif;
+  font-size: 1.5rem;
+  font-weight: 800;
   padding-bottom: 24px;
 }
 
@@ -230,6 +234,11 @@ blockquote{
   align-items: center;
   flex-direction: row;
 }
+.orientation h1, .campus h1, .guest h1{
+  font-family: 'Eczar', serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
 
 .orientation img, .campus img, .guest img{
   width:35%;
@@ -247,6 +256,7 @@ blockquote{
 }
 
 .orientation-info, .campus-info, .guest-info{
+  font-family: 'Roboto', sans-serif;
   overflow: visible;
   white-space: nowrap;
   text-overflow:ellipsis;
