@@ -29,11 +29,9 @@ html{
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/*font-family: 'Roboto', sans-serif;
-font-family: 'Eczar', serif;*/
-
 /* Header */
 .navigation{
+  font-family: 'Eczar', serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +48,17 @@ font-family: 'Eczar', serif;*/
   align-items: center;
   flex-direction: row;
   height:32px;
+}
+
+.logo p{
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.logo span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
 .desktop ul{
@@ -118,6 +127,7 @@ font-family: 'Eczar', serif;*/
 }
 
 .learn{
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -128,10 +138,13 @@ font-family: 'Eczar', serif;*/
 }
 
 .learn h1{
+  font-family: 'Eczar', serif;
   margin-bottom: 24px;
+  font-size: 2.5rem;
 }
 
 button{
+  font-family: 'Roboto', sans-serif;
   margin-top: 24px;
   padding:8px 0;
   width:80%;
@@ -208,6 +221,7 @@ blockquote{
   flex-direction: column;
   padding-top: 32px;
   width:40%;
+  border-left: 2px solid rgb(44,59,99);
 }
 
 .orientation, .campus, .guest{
@@ -321,6 +335,12 @@ blockquote{
   height:auto;
 }
 
+.software img:hover, .computer-art img:hover, .design img:hover, .data img:hover, .business img:hover, .marketing img:hover{
+  transform:scale(1.2);
+  transition: transform 500ms ease-in;
+}
+
+
 .software h2, .computer-art h2, .design h2, .data h2, .business h2, .marketing h2{
   padding:16px 16px 8px 16px;
 }
@@ -349,16 +369,16 @@ blockquote{
 .exhibit{
   text-align: center;
   padding: 32px;
-  color:rgb(44,59,99);
-  background-color: rgb(236,229,154);
+  color: rgb(132,141,130);
+  background-color: rgb(37,3,82);
 }
 
 .thesis{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  color:rgb(44,59,99);
-  background-color: rgb(236,229,154);
+  color: rgb(132,141,130);
+  background-color: rgb(37,3,82);
 }
 
 .video{
@@ -430,7 +450,7 @@ padding: 24px 0 32px 0;
   flex-direction: row;
   padding:16px 24px 0 24px;
   height:69px;
-  color:rgb(44,59,99);
+  color: rgb(44,59,99);
   background-color: rgb(132,141,130);
 }
 
