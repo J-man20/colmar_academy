@@ -147,12 +147,12 @@ flex-direction: row;
 }
 
 .read{
-  width:80%
+  width:60%
 }
 
 .read img{
   padding:32px 24px;
-  width:60%;
+  width:80%;
 }
 
 .read-text{
