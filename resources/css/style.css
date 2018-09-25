@@ -141,29 +141,33 @@ button a{
 
 /* About Banner */
 .about{
-  display: flex;
-  color:rgb(44,59,99);
-  background-color: rgb(132,141,130);
+display: flex;
+flex-direction: row;
+
 }
 
 .read img{
-  width:60%;
-  height: auto;
   padding:32px 24px;
+  width:60%;
 }
 
 .read-text{
-  padding:32px 24px;
-  width: 60%;
+  padding: 0 0 32px 24px;
+  width:60%;
 }
 
-.read-text h1, blockquote{
-  margin-bottom: 24px;
+.read-text h1{
+  padding-bottom: 24px;
+}
+
+blockquote{
+  padding-bottom: 32px;
 }
 
 .fyi{
   display: flex;
   flex-direction: column;
+  padding-top: 32px;
   width:40%;
 }
 
@@ -172,12 +176,6 @@ button a{
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  border-left: 2px solid rgb(44,59,99);
-
-}
-
-.campus, .guest{
-  border-top: 2px solid rgb(44,59,99);
 }
 
 .orientation img, .campus img, .guest img{
@@ -187,30 +185,20 @@ button a{
 }
 
 .orientation-info, .campus-info, .guest-info{
-  white-space: nowrap;
   overflow: visible;
-  text-overflow: ellipsis;
-  width:60%;
-}
-
-.orientation-info a, .campus-info a, .guest-info a{
-  color:rgb(44,59,99);
-  text-decoration: none;
-}
-
-.orientation-info a:hover, .campus-info a:hover, .guest-info a:hover{
-  color: rgb(236,229,154);
+  white-space: nowrap;
+  text-overflow:ellipsis;
 }
 
 .orientation-info h2, .campus-info h2, .guest-info h2{
-  padding-bottom: 8px;
+  padding:8px;
 }
 
-.orientation-info p, .campus-info p, .guest-info p{
-  padding-bottom: 8px;
+.orientation-info p, .campus-info , .guest-info p{
+  padding:8px;
 }
 
-.orientation-mobile, .campus-mobile, .guest-mobile{
+#orientation-mobile, #campus-mobile, #guest-mobile{
   display: none;
 }
 
