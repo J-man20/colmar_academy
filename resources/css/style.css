@@ -2,6 +2,7 @@
 html{
   font-size:18px;
   line-height: 1.5rem;
+  margin: 0 auto;
 }
 
 @font-face {
@@ -27,6 +28,9 @@ html{
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Eczar', serif;*/
 
 /* Header */
 .navigation{
@@ -103,7 +107,7 @@ html{
  justify-content: space-between;
  flex-direction: row;
  padding:32px 24px;
- color: rgb(236,229,154);
+ color: rgb(235,229,154);
  background-color: rgb(44,59,99);
 }
 
@@ -131,13 +135,18 @@ button{
   margin-top: 24px;
   padding:8px 0;
   width:80%;
-  background-color: rgb(236,229,154);
+  background-color: rgb(235,229,154);
   border: none;
+  border-radius: 5px;
 }
 
 button a{
- color: black;
+ color: rgb(44,59,99);
  text-decoration: none;
+}
+
+button a:hover{
+  color:rgb(132,141,130);
 }
 
 @media only screen and (max-width:480px){
@@ -214,8 +223,13 @@ blockquote{
   padding:16px;
 }
 
+.orientation a, .campus a, .guest a{
+  text-decoration: none;
+}
+
 .orientation a:hover, .campus a:hover, .guest a:hover{
   color:rgb(236,229,154);
+  font-size: 2rem;
 }
 
 .orientation-info, .campus-info, .guest-info{
@@ -262,6 +276,7 @@ blockquote{
   display: none;
 }
 
+
 #orientation-mobile, #campus-mobile, #guest-mobile{
   display: block;
   width:100%;
@@ -272,7 +287,9 @@ blockquote{
 /* Majors Banner */
 .start{
   text-align: center;
-  margin-top: 24px;
+  padding-top: 24px;
+  color:rgb(132,141,130);
+  background-color:rgb(44,59,99);
 }
 
 .majors{
@@ -281,16 +298,22 @@ blockquote{
   flex-direction: row;
   flex-wrap: wrap;
   padding:32px 72px;
+  background-color:rgb(44,59,99);
 }
 
 .software, .computer-art, .design, .data, .business, .marketing{
   display: flex;
   flex-direction: column;
   width: 33%;
+  color:rgb(132,141,130);
 }
 
 .data, .business, .marketing{
   padding-top: 32px;
+}
+
+.software:hover, .computer-art:hover, .design:hover, .data:hover, .business:hover, .marketing:hover{
+  color:rgb(236,229,154);
 }
 
 .software img, .computer-art img, .design img, .data img, .business img, .marketing img{
@@ -316,7 +339,8 @@ blockquote{
   }
   .mobile-majors{
     display: block;
-    margin: 16px 16px 32px 16px;
+    padding: 16px 16px 32px 16px;
+    background-color:rgb(44,59,99);
   }
 }
 
@@ -325,12 +349,16 @@ blockquote{
 .exhibit{
   text-align: center;
   padding: 32px;
+  color:rgb(44,59,99);
+  background-color: rgb(236,229,154);
 }
 
 .thesis{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  color:rgb(44,59,99);
+  background-color: rgb(236,229,154);
 }
 
 .video{
@@ -402,6 +430,8 @@ padding: 24px 0 32px 0;
   flex-direction: row;
   padding:16px 24px 0 24px;
   height:69px;
+  color:rgb(44,59,99);
+  background-color: rgb(132,141,130);
 }
 
 @media only screen and (max-width:480px){
