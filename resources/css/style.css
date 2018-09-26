@@ -107,7 +107,6 @@ html{
     padding-right: 24px;
   }
 
-
 }
 
 /* Discover Banner */
@@ -251,6 +250,8 @@ blockquote{
 }
 
 .orientation a, .campus a, .guest a{
+  color:rgb(44,59,99);
+  padding-left: 10px;
   text-decoration: none;
 }
 
@@ -386,6 +387,17 @@ blockquote{
     display: block;
     padding: 16px 16px 32px 16px;
     background-color:rgb(44,59,99);
+  }
+
+  .mobile-majors h1{
+    color:rgb(44,59,99);
+    background-color:rgb(132,141,130);
+    border-radius: 3px;
+    padding:10px;
+    margin:30px;
+    width:70%;
+    text-align: center;
+
   }
 }
 
