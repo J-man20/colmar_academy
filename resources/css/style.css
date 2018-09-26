@@ -139,12 +139,15 @@ html{
 
 .learn h1{
   font-family: 'Eczar', serif;
-  margin-bottom: 24px;
   font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  overflow: visible;
+  white-space: nowrap;
+  text-overflow:ellipsis;
 }
 
 button{
-  font-family: 'Roboto', sans-serif;
   margin-top: 24px;
   padding:8px 0;
   width:80%;
@@ -154,12 +157,13 @@ button{
 }
 
 button a{
+ font-family: 'Roboto', sans-serif;
  color: rgb(44,59,99);
  text-decoration: none;
 }
 
-button a:hover{
-  color:rgb(132,141,130);
+button:hover{
+  background-color:rgb(132,141,130);
 }
 
 @media only screen and (max-width:480px){
@@ -261,7 +265,6 @@ blockquote{
   white-space: nowrap;
   text-overflow:ellipsis;
   padding-right: 24px;
-  text-align: inherit;
 }
 
 .campus-info p{
@@ -310,9 +313,12 @@ blockquote{
 
 /* Majors Banner */
 .start{
+  font-family: 'Eczar',serif;
+  font-size: 2rem;
+  font-weight: 800;
   text-align: center;
   padding-top: 24px;
-  color:rgb(132,141,130);
+  color:rgb(236,229,154);
   background-color:rgb(44,59,99);
 }
 
@@ -351,11 +357,20 @@ blockquote{
 }
 
 
-.software h2, .computer-art h2, .design h2, .data h2, .business h2, .marketing h2{
+.software h1, .computer-art h1, .design h1, .data h1, .business h1, .marketing h1{
+  font-family: 'Eczar',serif;
+  font-size: 1.5rem;
   padding:16px 16px 8px 16px;
 }
 
+.software h2, .computer-art h2, .design h2, .data h2, .business h2, .marketing h2{
+  font-family: 'Roboto',sans-serif;
+  padding-left: 16px;
+}
+
 .software h3, .computer-art h3, .design h3, .data h3, .business h3, .marketing h3{
+  font-family: 'Roboto',sans-serif;
+  font-size: 0.75rem;
   padding:8px 0 0 16px;
 }
 
@@ -377,18 +392,22 @@ blockquote{
 
 /*Thesis Banner */
 .exhibit{
+  font-family: 'Eczar',serif;
+  font-size: 2rem;
+  font-weight: 800;
   text-align: center;
   padding: 32px;
-  color: rgb(132,141,130);
-  background-color: rgb(37,3,82);
+  color: rgb(44,59,99);
+  background-color: rgb(132,141,130);
 }
 
 .thesis{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  color: rgb(132,141,130);
-  background-color: rgb(37,3,82);
+  color: rgb(44,59,99);
+  background-color: rgb(132,141,130);
+
 }
 
 .video{
@@ -460,8 +479,8 @@ padding: 24px 0 32px 0;
   flex-direction: row;
   padding:16px 24px 0 24px;
   height:69px;
-  color: rgb(44,59,99);
-  background-color: rgb(132,141,130);
+  color: rgb(132,141,130);
+  background-color: rgb(37,3,82);
 }
 
 @media only screen and (max-width:480px){
