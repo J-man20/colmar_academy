@@ -402,6 +402,7 @@ blockquote{
 }
 
 .thesis{
+  font-family: 'Roboto',sans-serif;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -423,7 +424,10 @@ video{
 padding: 24px 0 32px 0;
 }
 
-.video-text h2{
+.video-text h1{
+  font-family: 'Eczar',serif;
+  font-size: 1.5rem;
+  font-weight: 600;
   padding-bottom: 8px;
 }
 
@@ -454,7 +458,10 @@ padding: 24px 0 32px 0;
   width:60%;
 }
 
-.fisma-text h2, .now-and-then-text h2{
+.fisma-text h1, .now-and-then-text h1{
+  font-family: 'Eczar',serif;
+  font-size: 1.5rem;
+  font-weight: 600;
   padding-bottom: 16px;
 }
 
@@ -474,6 +481,7 @@ padding: 24px 0 32px 0;
 
 /* Footer */
 .copyrights{
+  font-family: 'Eczar',serif;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
